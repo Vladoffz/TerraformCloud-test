@@ -1,8 +1,4 @@
-provider "aws" {
-  access_key = var.public
-  secret_key = var.secret
-  region = var.region_aws_id
-}
+provider "aws" {}
 
 
 terraform {
